@@ -152,6 +152,9 @@ general_minutes_amount						{amount} Minutes
 general_seconds_amount						{amount} Seconds
 general_permanent							Permanent
 general_help								Help
+general_hero_agi							Agility Heroes
+general_hero_int							Intelligence Heroes
+general_hero_str							Strength Heroes
 
 // main.interface
 main_peel_tip								Visit the Store
@@ -903,6 +906,7 @@ web_form_resetstats_error29					These actions would have no effect.
 web_form_resetstats_error30					No reset specified.
 web_form_resetstats_error31					Invalid first name.
 web_form_resetstats_error32					Invalid last name.
+web_form_resetstats_error38					This email address is already registered. Please use a different email address.
 web_form_resetstats_success					The chosen statistics have been successfully reset.  You must now log out in order to refresh your stats.
 web_form_resetstats_success_title			Stats Reset
 web_form_friendupgrade_auccess_title		Friend Upgrade Success
@@ -1119,8 +1123,8 @@ progstats_lvlup					^wLevel Up! ^*+{lvlupgold}
 
 // Motd Stuff
 motd_ad_legacy_welcome_msg_btn	View Message from Maliken
-motd_ad_text1					HoN is Free-to-Play
-motd_ad_text2					Monkey King
+motd_ad_text1					Overseer Hellbringer!
+motd_ad_text2					New Malphas
 motd_ad_text3					Available Now!
 
 motd_ad_Garena_text1			Flint Boomstick!
@@ -1858,6 +1862,8 @@ mstore_product557_name		Flag- Cambodia
 mstore_product558_name		Flag- Cameroon
 mstore_product559_name		Flag- Cape Verde
 mstore_product560_name		Flag- Central African Rep.
+mstore_product561_name		Flag- Chad
+mstore_product562_name		Flag- Colombia
 mstore_product563_name		Phantom Defiler
 mstore_product563_desc		Unleash vengeful souls upon your enemies as Phantom Defiler!
 mstore_product564_name		Royal Tanzanite Color
@@ -1949,15 +1955,15 @@ mstore_product652_name		Amun-Ra
 mstore_product653_name		Parasite
 mstore_product654_name		Emerald Warden
 mstore_product655_name		Hero Tokens
-mstore_product655_desc		Play heroes you do not own in SD, BD, BP, and AR game modes.
+mstore_product655_desc		Play heroes you do not own in SD, BD, BP, and AR game modes. Includes 10 uses.
 mstore_product656_name		Flint Boomstick
 mstore_product656_desc		Snipe your enemies with a shiny boomstick rifle, as the dwarven Flint Boomstick!
 mstore_product660_name		Single Draft Pass
-mstore_product660_desc		Unlimited access to the Single Draft game mode for the duration of the pass.
+mstore_product660_desc		Unlimited access to the Single Draft game mode for 7 days. Tokens not required for the duration.
 mstore_product661_name		Banning Draft Pass
-mstore_product661_desc		Unlimited access to the Banning Draft game mode for the duration of the pass.
+mstore_product661_desc		Unlimited access to the Banning Draft game mode for 7 days. Tokens not required for the duration.
 mstore_product662_name		All Random Pass
-mstore_product662_desc		Unlimited access to the All Random game mode for the duration of the pass.
+mstore_product662_desc		Unlimited access to the All Random game mode for 7 days. Tokens not required for the duration.
 mstore_product663_name		2X Silver Coins
 mstore_product663_desc		Make the most of your games!  Get double the silver coins in each match.
 mstore_product664_name		British Gentleman Pack
@@ -1978,6 +1984,46 @@ mstore_product676_name		Hero Bloodlust Pack
 mstore_product676_desc		Add 10 heroes to your pool at a discount.
 mstore_product678_name		Hero Massacre Pack
 mstore_product678_desc		Add 10 heroes to your pool at a discount.
+mstore_product680_name		2 Cool 4 School
+mstore_product680_desc		Save 10% off both the gold and silver costs!
+mstore_product681_name		Classic Carry Alts
+mstore_product681_desc		Save 10% off both the gold and silver costs!
+mstore_product682_name		Dead and Dangerous
+mstore_product682_desc		Save 10% off both the gold and silver costs!
+mstore_product683_name		Extreme Melee Alts
+mstore_product683_desc		Save 10% off both the gold and silver costs!
+mstore_product684_name		Steam Fantasy
+mstore_product684_desc		The mechanics of Newerth will serve you well.
+mstore_product685_name		One Shot One Kill
+mstore_product685_desc		I have the ability to wipe the floor with you in one spell!
+mstore_product686_name		Never Walk Alone 
+mstore_product686_desc		The heroes that never lets you off when you're alone.
+mstore_product687_name		Starter Pack
+mstore_product687_desc		One pack to get started
+mstore_product688_name		Fresh New Start
+mstore_product688_desc		Need a fresh restart?
+mstore_product689_name		Bearded Death
+mstore_product689_desc		Fear the lords of the Newerth!
+mstore_product690_name		Demonic Destruction
+mstore_product690_desc		Arising from the Damned to send chills down your spine.
+mstore_product691_name		Royal Status Bundle
+mstore_product691_desc		All that you need for the rise to royalty. Appear above Diamond Blue players.
+mstore_product692_name		In Your FACE!
+mstore_product692_desc		Taunt your kill in their face with a three pack of taunts and U MAD? icon free. 
+mstore_product694_name		Master of Arms
+mstore_product695_name		Support Hero Alts
+mstore_product695_desc		Save 10% off both the gold and silver costs!
+mstore_product696_name		Master Ganker Alts
+mstore_product696_desc		Save 10% off both the gold and silver costs!
+mstore_product697_name		Elite Pyromancer Bundle
+mstore_product698_name		Elite Moon Queen Bundle
+mstore_product700_name		Rhapsody
+mstore_product701_name		Commander of Arms
+mstore_product702_name		Jade Warrior
+mstore_product703_name		Elite Pollywog Bundle
+mstore_product704_name		Elite Magmus Bundle
+mstore_product705_name		Elite Glacius Bundle
+mstore_product706_name		Elite Soulstealer Bundle
 
 
 mstore_product999999001_name	Default Account Icon
@@ -2095,6 +2141,7 @@ mstore_eap				Early Access
 mstore_releasedate		Release Date
 mstore_latestheroes		Latest Heroes
 mstore_eapdesc_legacy	Play the newest heroes today!  Get early access to the heroes before they are added to the hero pool for all Legacy players.
+mstore_eapdesc_garena	Play the newest heroes today!  Get early access to the heroes before they are added to the hero pool for all VIP players.
 mstore_eapdesc_f2p		Own the newest heroes and be one of the first players to play them!
 mstore_eapupdate		Update Required
 mstore_eapupdate_body	A new Early Access hero is available.  You must update HoN before it can be displayed.
@@ -2105,6 +2152,20 @@ mstore_vanity			Account Vanity
 mstore_vanity_tip		These items enhance the visual appearance of your account.
 mstore_gamevanity			Game Vanity
 mstore_gamevanity_tip		These items enhance your visual appearance in-game.
+
+mstore_eap_includes					Includes
+mstore_eap_exclusive				Exclusive
+mstore_eap_only						EA Only
+mstore_eap_avatar					Avatar!
+mstore_eap_tip_altavetitle			Alternate Avatar
+mstore_eap_tip_altavetitle_txt		This hero has alternate avatars. Select the icons above or below to preview the different avatars.
+mstore_tip_herodisplay_hasalt_txt	This hero has an alternate avatar. Click the icons to view the avatars available. Purchasing the hero does NOT autmatically purchase the alternate avatars. You must purchase alternate avatars separately.
+
+mstore_eap_altav_orig				Original
+mstore_eap_altav_eapExc				EA Exclusive
+mstore_eap_altav_alt1				Alternate 1
+mstore_eap_altav_alt2				Alternate 2
+
 
 mstore_goldcollection				Gold Collection
 mstore_goldcollection_tip			This avatar is part of the Gold Collection, which is a series of rare and high-quality avatars. It is only available for a very limited time.
@@ -2293,6 +2354,11 @@ mstore_firstvisit3_body				There are two types of coins - Gold and Silver.  Both
 mstore_error_generic				An error has occurred.
 mstore_nickchange_submit			Change Nickname
 
+mstore_buyhero_altBundle_title		Bundle These Alternate Avatars and Save
+mstore_buyhero_altBundle_costSep	Cost Purchased Separately
+mstore_buyhero_altBundle_cost_Bun	Bundled Purchase Cost
+mstore_buyhero_altBundle_checkbox	Purchase Hero With Bundled Alternate Avatars
+
 mstore_icon_await_upload			Awaiting Upload
 mstore_item_selected				Selected
 
@@ -2413,6 +2479,8 @@ mstore_Hero_DwarfMagi_name			Blacksmith
 mstore_Hero_Parasite_name			Parasite
 mstore_Hero_Zephyr_name				Zephyr
 mstore_Hero_DrunkenMaster_name		Drunken Master
+mstore_Hero_MonkeyKing_name			Monkey King
+mstore_Hero_MasterOfArms_name		Master of Arms
 
 //Account Icons
 mstore_unlock_icon_btn				Unlock Icon Slot
@@ -2434,7 +2502,6 @@ mstore_custom_faq_Q2				Can I change my icon after I upload it?
 mstore_custom_faq_A2				No. Once uploaded, you must purchase a new custom icon. Both will be available in your Vault.
 mstore_custom_faq_Q3				How do I upload my custom icon?
 mstore_custom_faq_A3				You must visit the custom icon website to upload your icon file. The URL is http://www.heroesofnewerth.com/icons/
-
 
 mstore_vault_tokens_pass_title		Tokens and Passes
 mstore_vault_tokens_owned			Tokens Owned:
@@ -3409,6 +3476,13 @@ mainlobby_label_custom_game_VIP			VIP Server
 mainlobby_label_custom_game_MYVIP			Malaysia VIP Server
 mainlobby_label_custom_game_SGVIP			Singapore VIP Server
 mainlobby_label_custom_game_PHVIP			Philippines VIP Server
+
+mainlobby_label_custom_game_SG			Singapore
+mainlobby_label_custom_game_MY			Malaysia
+mainlobby_label_custom_game_PH			Philippines
+mainlobby_label_custom_game_TH			Thailand
+mainlobby_label_custom_game_VN			Vietnam
+
 mainlobby_label_custom_game_BR				South America
 mainlobby_label_custom_team_size			Team Size
 mainlobby_label_custom_team_size_desc		Restrict games to a particular team size.
@@ -4539,6 +4613,12 @@ mm_uswest_region				US West
 mm_sgvip_region					Singapore
 mm_gvip_region					Malaysia
 mm_phvip_region					Philippines
+mm_sg_region					Singapore
+mm_my_region					Malaysia
+mm_ph_region					Philippines
+mm_th_region					Thailand
+mm_id_region					Indonesia
+mm_vn_region					Vietnam
 
 
 mm_isleaver_onopen				Unable to join Matchmaking
@@ -4983,8 +5063,8 @@ lang_de										German
 lang_br										Portuguese
 lang_es										Spanish
 lang_vn										Vietnamese
-lang_tr										Turkish
 lang_ru										Russian
+lang_tr										Turkish
 lang_ro										Romanian
 lang_ta										Thai
 lang_notnow									You may not change your language at this time. To change your language, you must first log out of your account. If required, you may need to disconnect first.
@@ -5071,6 +5151,7 @@ sysbar_token_tip_title						Tokens and Game Passes
 sysbar_token_tip_msg						Tokens and Game Passes are used to play certain game modes.
 sysbar_token_tip_title_legacy				Tokens and Game Passes
 sysbar_token_tip_msg_legacy					As a legacy player, you have an infinite number of tokens and can play any game mode at any time.
+sysbar_token_tip_msg_garena					As a VIP player, you have an infinite number of tokens and can play any game mode at any time.
 
 // F2P TMM
 tmm_player_needs_tokens					This player it not able to play with the current options.
@@ -5150,8 +5231,14 @@ specui_options_showHotkeys			Show Hotkeys
 specui_options_showHotkeys_txt		Display hotkeys on the Spec UI.
 specui_options_detectCombat			Detect Combat
 specui_options_detectCombat_txt		Display icons of players currently in combat. Pressing the hotkey will jump the camera to this player.
-specui_options_miniMode				Minimalist Mode
+specui_options_miniMode				Minimalist Top Bar
 specui_options_miniMode_txt			Reduce the impact of on-screen elements. Requires HoN restart.
+specui_options_miniMode1			Minimalist Info Panel
+specui_options_miniMode1_txt		Reduce the impact of on-screen elements. Requires HoN restart.
+specui_options_miniMode2			Minimalist Unit Frames
+specui_options_miniMode2_txt		Reduce the impact of on-screen elements. Requires HoN restart.
+specui_options_miniMode3			Minimalist Mode
+specui_options_miniMode3_txt		Reduce the impact of on-screen elements. Requires HoN restart.
 specui_options_costThreshold		Cost Threshold
 specui_options_costThreshold_txt	The minimum cost of item purchases to be displayed. Note that recipe items will skip this check.
 specui_options_popupLife			Popup Life
@@ -5162,6 +5249,8 @@ specui_options_abilityLvlUps		Ability Levelups
 specui_options_abilityLvlUps_txt	Display ability levelup popups.
 specui_options_abilityUsage			Ability Usage
 specui_options_abilityUsage_txt		Display ability usage popups.
+specui_options_hideChat				Ignore Spectator Chat
+specui_options_hideChat_txt			Ignore spectator team chat.
 
 //vid driver options
 options_label_vid_quality			Video Driver
@@ -5169,5 +5258,10 @@ main_vid_confirm					Video Driver
 main_vid_confirm_info				You must restart HoN before your changes will take effect.
 button_restart_later				Later
 button_restart_now					Restart HoN Now
+
+// CCU Region Labels
+ccu_region_NA	International
+ccu_region_SEA	South East Asia
+ccu_region_RU	Russia
 
 // End - do not delete this line
